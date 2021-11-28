@@ -1,0 +1,35 @@
+*{
+  display: block;
+  margin: auto;
+  text-align: center
+}
+
+body {
+  background-color: wheat;
+  margin: 2rem
+}
+
+.msg{
+  padding: 0.5rem;
+  border: 1px solid black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+button{
+  padding: 0.6rem;
+  border-radius: 0.5rem; 
+  background-color: wheat;
+  transition-duration: 0.8s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+  display: inline;
+  margin: 0.5rem
+}
+
+button:hover {
+  background-color: darkgoldenrod
+}
